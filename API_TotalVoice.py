@@ -29,7 +29,6 @@ def SMS(telefone_user, mensagem):
         return "Mensagem enviada com sucesso"
     else:
         return "Erro no envio"
-    return retorno_tratado
 
 #Print apenas para demonstração da função.
 print(SMS('Insira DDD + Telefone','Insira_sua_Mensagem'))
